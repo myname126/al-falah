@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Ladakh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            position: relative;
+            height: 80vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
+            overflow: hidden;
+        }
+        header img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        nav {
+            background: #004466;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #0077aa;
+            border-radius: 5px;
+        }
+        section {
+            padding: 3rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            background: #004466;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 1.1rem;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="l1.jpeg" alt="Ladakh Monastery">
+        Welcome to Ladakh - The Land of High Passes
+    </header>
+    <nav>
+        <a href="#history">History</a>
+        <a href="#festivals">Festivals</a>
+        <a href="#travel-tips">Travel Tips</a>
+    </nav>
+    <section id="history">
+        <h2>History of Ladakh</h2>
+        <div class="card">
+            <img src="l1.jpeg" alt="Ladakh Monastery">
+            <p>Ladakh has a rich history influenced by Tibetan and Indian cultures. It was an important stop on the ancient Silk Route.</p>
+        </div>
+    </section>
+    <section id="festivals">
+        <h2>Festivals of Ladakh</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="image-12.jpeg" alt="Hemis Festival">
+                <p>Hemis Festival is one of the most famous celebrations, featuring traditional masked dances.</p>
+            </div>
+            <div class="card">
+                <img src="ladakh-shutterstock-2685.jpg" alt="Losar Festival">
+                <p>Losar Festival marks the Tibetan New Year with grand festivities.</p>
+            </div>
+            <div class="card">
+                <img src="LADAKH.jpg" alt="Ladakh Festival">
+                <p>Ladakh Festival showcases the vibrant culture, music, and dance of the region.</p>
+            </div>
+        </div>
+    </section>
+    <section id="travel-tips">
+        <h2>Travel Tips</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="glimpses-of-ladakh_standard.jpg" alt="Best Time to Visit">
+                <p>Best time to visit Ladakh is from May to September.</p>
+            </div>
+            <div class="card">
+                <img src="Archer-in-water-against-mountains-Nubra-Valley-Ladakh-India.jpeg" alt="Acclimatization">
+                <p>Acclimatization is important due to the high altitude; stay hydrated and avoid strenuous activities on the first day.</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="Warm Clothing">
+                <p>Carry warm clothing even in summer, as temperatures drop significantly at night.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Explore Ladakh | All Rights Reserved
+    </footer>
+</body>
+</html>
